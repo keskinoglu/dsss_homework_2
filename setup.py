@@ -2,7 +2,13 @@ from setuptools import setup
 
 setup(
     name='math_quiz',
-    version='0.3',
+    version='0.4',
+    py_modules=['math_quiz'],
+    entry_points={
+        'console_scripts': [
+            'math_quiz = math_quiz:main',
+        ],
+    },
     install_requires=[],
     classifiers=[
         'Development Status :: 3 - Alpha',
