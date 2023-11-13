@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='math_quiz',
-    version='0.5',
+    version='0.6',
     py_modules=['math_quiz'],
     entry_points={
         'console_scripts': [

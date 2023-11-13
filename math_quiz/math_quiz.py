@@ -74,7 +74,7 @@ def math_quiz():
         user_answer = input("Your answer: ")
 
         # Check if the user entered a valid integer.
-        while not user_answer.isdigit():
+        while not user_answer.lstrip('+-').isdigit():
             print("Please enter a valid integer.")
             user_answer = input("Your answer: ")
 
