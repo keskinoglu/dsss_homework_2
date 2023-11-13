@@ -90,8 +90,6 @@ def math_quiz():
 
     print(f"\nGame over! Your score is: {score}/{number_of_questions}")
     
-def main():
-    math_quiz()
 
 if __name__ == "__main__":
     math_quiz()
